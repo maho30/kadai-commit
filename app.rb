@@ -3,4 +3,7 @@ require 'sinatra'
 get '/' do
   erb :index
 end
-views/ind
+
+post '/' do
+  erb :index
+end  
